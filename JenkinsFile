@@ -1,0 +1,27 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+                echo 'Everyone'
+                sh  'mkdir Ola'
+            }
+        }
+        
+        stage('Test') {
+            steps {
+                echo 'Test'
+            }
+        }
+        
+        stage('Deploy') {
+            steps {
+                echo 'Test'
+            }
+        }
+        
+      
+    }
+}
