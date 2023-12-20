@@ -1,0 +1,21 @@
+Questions to ask your developers before .md
+
+ReactJS - npm (Node Package Manager)
+Documentation of steps to do following:
+0. What is the programming language?
+   - ReactJS is the programming language
+1. Pre-requisites software to compile, build & test
+   - What is the package or dependency management or build tool? 
+   - npm is used as a package management or dependency management
+   - nodejs tool or software to build ReactJS application
+2. Version of the tools to be used
+   - nodejs & v19.9.0 (NodeJs tool will have npm software) and v1
+   - npm : Specific version (may not be always)
+   - iPhone 16 --> v16.0.0 -> v16.1.0 (Battery problem) -> v16.1.1 (Patch with some security fixes)
+3. Compile the code
+   - npm install
+4. Build the code - some commands
+   - npm run build
+5. Test the code - some command
+- npm run test
+
